@@ -15,7 +15,6 @@ public class ServletLoginProgram extends HttpServlet
 	{
 		//Added a comment line
 		resp.setContentType("text/html");
-		//PrintWriter obj = resp.getWriter();
 		String usrName = req.getParameter("username");
 		String pwd  = req.getParameter("password");
 		//obj.println("<html>");
