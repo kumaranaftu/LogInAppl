@@ -13,6 +13,7 @@ public class ServletLoginProgram extends HttpServlet
 {
 	public void doPost(HttpServletRequest req, HttpServletResponse resp)throws IOException, ServletException 
 	{
+		//Added a comment line
 		resp.setContentType("text/html");
 		//PrintWriter obj = resp.getWriter();
 		String usrName = req.getParameter("username");
