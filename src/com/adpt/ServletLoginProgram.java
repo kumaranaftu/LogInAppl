@@ -14,6 +14,7 @@ public class ServletLoginProgram extends HttpServlet
 	public void doPost(HttpServletRequest req, HttpServletResponse resp)throws IOException, ServletException 
 	{
 		//Added a comment line
+		//Added on master branch
 		resp.setContentType("text/html");
 		String usrName = req.getParameter("username");
 		String pwd  = req.getParameter("password");
